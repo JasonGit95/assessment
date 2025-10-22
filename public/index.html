@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memo App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app">
+        <div class="login-section">
+            <label for="access_token">Access Token</label>
+            <input id="access_token" type="text" />
+            <button id="login">LOGIN</button>
+        </div>
+        <div class="main-section" style="display:none;">
+            <aside class="sidebar">
+                <h2>Memo App</h2>
+                <ul id="category-list"></ul>
+            </aside>
+            <main class="content">
+                <div id="memo-list-section" style="display:none;">
+                    <h3 id="category-title"></h3>
+                    <ul id="memo-list"></ul>
+                    <form id="add-memo-form">
+                        <input id="new-memo-content" type="text" placeholder="Add new memo..." required />
+                        <button type="submit">SAVE</button>
+                    </form>
+                    <button id="new-memo" disabled>NEW MEMO</button>
+                </div>
+                <div id="memo-detail-section" style="display:none;">
+                    <input id="memo-title" type="text" placeholder="Memo title..." />
+                    <textarea id="memo-content" placeholder="Memo content..."></textarea>
+                    <button id="save-memo">SAVE</button>
+                    <button id="delete-memo">DELETE</button>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
