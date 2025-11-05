@@ -48,9 +48,8 @@ Notes:
 
 Deployment:
 -----------
-https://drive.google.com/file/d/10M2GEVX2QyZS1jRSp1568Uc19FCWaTjV/view?usp=sharing
-
 DediProg: https://drive.google.com/file/d/1ozGvXpjZGc-JXa0zDet8pJlIttUdaCaB/view
+Bittensor: https://drive.google.com/file/d/1Fagr2IhM7uZjJ4riBf8JEu-S5eU3tyLX/view?usp=sharing
 
 Author:
 -------
